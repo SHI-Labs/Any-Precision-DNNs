@@ -35,7 +35,7 @@ To test a trained model, simply run the corresponding training script for one ep
 Due to the following listed training hyperparameter changes, numbers below may be different from those in the paper.
 * Init lr for any-precision models: 0.1 -> 0.5.
 * We use ReLU for 32-bit model instead of Clamp (check [here](https://github.com/haichaoyu/any-precision-nets/blob/master/models/resnet_quan.py#L22)).
-* We use tanh nonlinearity for 32-bit model for consistensity with other precisions (check [here](https://github.com/haichaoyu/any-precision-nets/blob/master/models/quan_ops.py#L88)).
+* We use tanh nonlinearity for 32-bit model for consistency with other precisions (check [here](https://github.com/haichaoyu/any-precision-nets/blob/master/models/quan_ops.py#L88)).
 
 ##### Resnet-20 Models on CIFAR10
 | Models                               | 1 bit | 2 bit | 4 bit | 8 bit | FP32  |
