@@ -14,7 +14,7 @@
     mkdir -p $result_dir
 
     # For individual models, change
-    # lr=0.1, lr_decay=30,60,85,95,105, epochs=120, and weight-decay=0 or 1e-4.
+    # lr=0.1, lr_decay=30,60,85,95,105, epochs=120, and weight-decay=1e-5 or 1e-4.
     python -u train_imagenet.py \
         --model resnet50q \
         --dataset imagenet \

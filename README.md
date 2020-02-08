@@ -60,12 +60,11 @@ Due to the following listed training hyperparameter changes, numbers below may b
 ##### Resnet-50 Models on ImageNet
 | Models                   | 1 bit | 2 bit | 4 bit | 8 bit | FP32  |
 |--------------------------|-------|-------|-------|-------|-------|
-| Resnet-50                |[53.49](https://www.dropbox.com/s/msz92v5h87f82vq/resnet50q_1.pth.tar?dl=0)<sup>4,6</sup>|[65.12](https://www.dropbox.com/s/2bpract88gsg0eh/resnet50q_2.pth.tar?dl=0)<sup>4</sup>|[74.12](https://www.dropbox.com/s/j43l2zyxkj7auqa/resnet50q_4.pth.tar?dl=0)<sup>5</sup>|[74.96](https://www.dropbox.com/s/q879ap3auofcgo2/resnet50q_8.pth.tar?dl=0)<sup>5</sup>|[75.95](https://www.dropbox.com/s/t74fbzsxxs0bkk4/resnet50q_32.pth.tar?dl=0)<sup>5</sup>|
+| Resnet-50                |[57.83](https://www.dropbox.com/s/qpywwky7cx3jtsk/resnet50q_1.pth.tar?dl=0)<sup>4</sup>|[68.74](https://www.dropbox.com/s/93uthplop94box2/resnet50q_2.pth.tar?dl=0)<sup>4</sup>|[74.12](https://www.dropbox.com/s/j43l2zyxkj7auqa/resnet50q_4.pth.tar?dl=0)<sup>5</sup>|[74.96](https://www.dropbox.com/s/q879ap3auofcgo2/resnet50q_8.pth.tar?dl=0)<sup>5</sup>|[75.95](https://www.dropbox.com/s/t74fbzsxxs0bkk4/resnet50q_32.pth.tar?dl=0)<sup>5</sup>|
 | [Resnet-50-Any (recursive)](https://www.dropbox.com/s/df87f40od0g8uq9/resnet50q_any_recursive.pth.tar?dl=0)|58.77            |71.66            |73.84            |74.07            |74.63 |
 
-4: Weight decay 0  
-5: Weight decay 1e-4  
-6: 1-bit baseline is lower than that in the paper. We will update it when reason(s) found
+4: Weight decay 1e-5  
+5: Weight decay 1e-4
 
 ## Citation
 If you find this repository helpful, please consider citing our paper:

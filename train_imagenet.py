@@ -78,7 +78,7 @@ def main():
             args.resume = os.path.join(args.resume, 'model_best.pth.tar')
         if os.path.isfile(args.resume):
             checkpoint = torch.load(args.resume, map_location='cuda:0')
-            args.start_epoch = checkpoint['epoch'] + 1
+            args.start_epoch = checkpoint['epoch']
             best_prec1 = checkpoint['best_prec1']
             model.load_state_dict(checkpoint['state_dict'])
             optimizer.load_state_dict(checkpoint['optimizer'])
