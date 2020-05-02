@@ -78,4 +78,4 @@ If you find this repository helpful, please consider citing our paper:
 ```
 
 ## Contact
-Please feel free to contact Haichao Yu at haichaoyu3@gmail.com for any issue.
+Please feel free to contact Haichao Yu at haichao.yu@outlook.com for any issue.
